@@ -42,7 +42,7 @@ namespace Xerath
             R = new Spell(SpellSlot.R, 3200);
 
             // Finetune spells
-            Q.SetSkillshot(0.6f, 100, float.MaxValue, false, SkillshotType.SkillshotLine);
+            Q.SetSkillshot(0.3f, 100, float.MaxValue, false, SkillshotType.SkillshotLine);
             W.SetSkillshot(0.7f, 150, float.MaxValue, false, SkillshotType.SkillshotCircle);
             E.SetSkillshot(0.25f, 70, 1600, true, SkillshotType.SkillshotLine);
             R.SetSkillshot(0.6f, 120, float.MaxValue, false, SkillshotType.SkillshotCircle);
